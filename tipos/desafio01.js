@@ -5,9 +5,9 @@
 //   - FUNÇÃO DE BATER PONTO QUE RECEBA A HORA E RETORNA UMA STRING
 //     - PONTO NORMAL (<=8)
 //     - FORA DO HORARIO (>8)
-var funcionario = {
+let funcionario = {
     array: ['joao', 'maria'],
-    baterPonto: function (num) {
+    baterPonto(num) {
         if (num <= 8) {
             return 'ponto normal';
         }
@@ -18,3 +18,4 @@ var funcionario = {
 };
 console.log(funcionario.array);
 console.log(funcionario.baterPonto(9));
+//# sourceMappingURL=desafio01.js.map
